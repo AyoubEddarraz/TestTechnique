@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c033fa-53e1-4120-b282-a2c4067ad20e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/EmployeSalaireAnnuel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/EmployeSalaireAnnuelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/EmployeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/Salaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/SalaireUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ws/src/main/java/com/springsecurity/ws/Configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ws/src/main/java/com/springsecurity/ws/Configuration/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ws/src/main/java/com/springsecurity/ws/Implementation/RekognitionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ws/src/main/java/com/springsecurity/ws/Implementation/RekognitionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ws/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ws/src/main/resources/application.properties" afterDir="false" />
@@ -18,8 +23,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2STal88onyhMCfqpZSBOyPfp9k7" />
   <component name="ProjectViewState">
@@ -32,6 +45,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689173173888</updated>
-      <workItem from="1689173175128" duration="28000" />
+      <workItem from="1689173175128" duration="975000" />
     </task>
     <servers />
   </component>
