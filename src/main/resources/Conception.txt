@@ -1,0 +1,63 @@
++-----------------------+
+|       Recruitment      |
++-----------------------+
+|                       |
+| - candidates: List<Candidate>         |
+| - tests: List<Test>                    |
++-----------------------+
+
++-----------------------+
+|       Candidate        |
++-----------------------+
+|                       |
+| - ID: int                              |
+| - firstName: String                   |
+| - lastName: String                   |
+| - dateOfBirth: Date                  |
+|                       |
+| + Candidate(ID: int, firstName: String, lastName: String, dateOfBirth: Date) |
+| + getID(): int                                      |
+| + getFirstName(): String                   |
+| + getLastName(): String                    |
+| + getDateOfBirth(): Date                   |
++-----------------------+
+
++-----------------------+
+|          Test            |
++-----------------------+
+|                       |
+| - maxDuration: int                    |
+| - questions: List<Question>         |
+|                       |
+| + Test(maxDuration: int, questions: List<Question>) |
+| + getMaxDuration(): int                           |
+| + getQuestions(): List<Question>          |
++-----------------------+
+
++-----------------------+
+|        Question        |
++-----------------------+
+|                       |
+| - questionText: String               |
+| - options: List<String>               |
+| - correctAnswers: List<String>    |
+|                       |
+| + Question(questionText: String, options: List<String>, correctAnswers: List<String>) |
+| + getQuestionText(): String                                      |
+| + getOptions(): List<String>                                   |
+| + getCorrectAnswers(): List<String>                  |
++-----------------------+
+
++-----------------------+
+|   TestResult            |
++-----------------------+
+|                       |
+| - candidate: Candidate              |
+| - test: Test                              |
+| - score: double                          |
+|                       |
+| + TestResult(candidate: Candidate, test: Test, score: double) |
+| + getCandidate(): Candidate                          |
+| + getTest(): Test                                          |
+| + getScore(): double                                      |
++-----------------------+
